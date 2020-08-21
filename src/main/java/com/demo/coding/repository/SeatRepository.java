@@ -1,14 +1,10 @@
-package com.alticart.coding.repository;
-
-import java.time.LocalDate;
+package com.demo.coding.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.alticart.coding.entity.BusSeatsEntity;
+import com.demo.coding.entity.BusSeatsEntity;
 
 @Repository
 public interface SeatRepository extends JpaRepository<BusSeatsEntity, String> {

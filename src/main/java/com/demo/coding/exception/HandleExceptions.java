@@ -1,4 +1,4 @@
-package com.alticart.coding.exception;
+package com.demo.coding.exception;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

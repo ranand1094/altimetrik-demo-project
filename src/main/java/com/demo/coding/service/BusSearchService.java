@@ -1,4 +1,4 @@
-package com.alticart.coding.service;
+package com.demo.coding.service;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -8,12 +8,12 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.alticart.coding.entity.BusEntity;
-import com.alticart.coding.entity.BusSeatsEntity;
-import com.alticart.coding.model.BusModel;
-import com.alticart.coding.model.BusSearchModel;
-import com.alticart.coding.repository.BusRepository;
-import com.alticart.coding.repository.SeatRepository;
+import com.demo.coding.entity.BusEntity;
+import com.demo.coding.entity.BusSeatsEntity;
+import com.demo.coding.model.BusModel;
+import com.demo.coding.model.BusSearchModel;
+import com.demo.coding.repository.BusRepository;
+import com.demo.coding.repository.SeatRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Service

@@ -1,4 +1,4 @@
-package com.alticart.coding.entity;
+package com.demo.coding.entity;
 
 import java.sql.Time;
 import java.time.LocalDate;

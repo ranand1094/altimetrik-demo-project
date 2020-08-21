@@ -1,4 +1,4 @@
-package com.alticart.coding.entity;
+package com.demo.coding.entity;
 
 import java.io.Serializable;
 import java.sql.Time;
